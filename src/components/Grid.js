@@ -44,7 +44,7 @@ export default class Grid extends React.Component {
                 ]}
                 
                 onLayout={(e) => {
-                    e.persist()
+                    e.persist && e.persist()
                     InteractionManager.runAfterInteractions(() => {
                         // avoid queuing up rAF tasks
                         cancelAnimationFrame(this.animFrame)
