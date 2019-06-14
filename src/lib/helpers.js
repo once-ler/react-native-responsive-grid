@@ -142,4 +142,7 @@ const getOffset = (screenSize, props) => {
   }
 };
 
-export default {isHidden, isExcludedByAspectRatio, getSize, getOffset}
+export const isHidden
+export const isExcludedByAspectRatio
+export const getSize
+export const getOffset
